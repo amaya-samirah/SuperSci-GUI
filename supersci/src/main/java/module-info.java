@@ -5,4 +5,7 @@ module supershow.example {
 
     opens supershow.example to javafx.fxml;
     exports supershow.example;
+
+    opens controllers to javafx.fxml;
+    exports controllers;
 }
