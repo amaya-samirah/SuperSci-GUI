@@ -1,6 +1,7 @@
 module supershow.example {
     requires javafx.controls;
     requires javafx.fxml;
+    requires json.simple;
 
     opens supershow.example to javafx.fxml;
     exports supershow.example;
